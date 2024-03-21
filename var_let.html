@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Declare variable x using let and assign it a value of 5
+let x = 5;
+
+// Declare variable y using var and assign it a value of 10
+var y = 10;
+
+// Print both variables
+console.log("Values:");
+console.log("x =", x);
+console.log("y =", y);
+
+document.write("<h2> Results" + "<br>"+ "</h2>" );
+document.write("The original value of x is " + x + "<br>" );
+document.write("The original value of y is " + y+ "<br>" );
+
+// Try to reassign x and y within the same scope
+x = 15; // Reassign x using let
+y = 20; // Reassign y using var
+
+// Print the updated values of x and y
+console.log("Updated values:");
+console.log("x =", x);
+console.log("y =", y);
+
+
+// Display the results in the HTML document
+document.write("<h2> updates values " + "<br>" + "</h2>");
+document.write("The updated value of x is " + x + "<br>");
+document.write("The updated value of y is " + y );
+
+    </script>
+</body>
+</html>
